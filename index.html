@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能基金投资顾问 - OpenClaw AI</title>
+    <meta name="description" content="基于AI技术的智能基金投资顾问，提供专业的市场分析和投资建议">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-chart-line"></i>
+                <span>OpenClaw AI</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">功能特色</a></li>
+                <li><a href="#installation">安装指南</a></li>
+                <li><a href="#demo">在线演示</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">智能基金投资顾问</span>
+                </h1>
+                <p class="hero-subtitle">基于AI技术的专业投资分析平台，为您提供精准的市场洞察和投资建议</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">99.8%</div>
+                        <div class="stat-label">分析准确率</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">每日推送</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">实时监控</div>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('installation')">
+                        <i class="fas fa-download"></i>
+                        立即安装
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToSection('demo')">
+                        <i class="fas fa-play"></i>
+                        查看演示
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="dashboard-preview">
+                    <div class="dashboard-header">
+                        <div class="dashboard-title">投资分析面板</div>
+                        <div class="dashboard-status">实时更新</div>
+                    </div>
+                    <div class="dashboard-content">
+                        <div class="chart-placeholder"></div>
+                        <div class="metrics-grid">
+                            <div class="metric positive">
+                                <div class="metric-label">今日收益</div>
+                                <div class="metric-value">+2.3%</div>
+                            </div>
+                            <div class="metric negative">
+                                <div class="metric-label">风险评级</div>
+                                <div class="metric-value">中低</div>
+                            </div>
+                            <div class="metric neutral">
+                                <div class="metric-label">推荐基金</div>
+                                <div class="metric-value">3只</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 功能特色 -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">核心功能特色</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-analytics"></i>
+                    </div>
+                    <h3>智能市场分析</h3>
+                    <p>基于深度学习的市场趋势分析，实时监控数千只基金表现，提供精准的投资时机判断</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI基金推荐</h3>
+                    <p>根据您的风险偏好和投资目标，智能推荐最适合的基金组合，实现个性化投资方案</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>风险控制管理</h3>
+                    <p>实时风险评估和预警系统，帮助您及时调整投资策略，降低投资风险</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>智能推送提醒</h3>
+                    <p>每日三次定时推送最新市场动态和投资建议，让您不错过任何重要机会</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>投资组合监控</h3>
+                    <p>全面监控您的投资组合表现，提供详细的收益分析和持仓建议</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>多平台支持</h3>
+                    <p>支持Web端和移动端访问，随时随地查看投资情况和获取专业建议</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 安装指南 -->
+    <section id="installation" class="installation">
+        <div class="container">
+            <h2 class="section-title">快速安装指南</h2>
+            <div class="installation-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>一键安装</h3>
+                        <p>使用以下命令快速安装智能投资顾问系统</p>
+                        <div class="code-block">
+                            <code id="install-code">bash -c "$(curl -s https://raw.githubusercontent.com/claudwang/openclaw-fund-advisor/main/install.sh)"</code>
+                            <button class="copy-btn" onclick="copyToClipboard('install-code')">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>配置设置</h3>
+                        <p>根据提示完成个性化配置，包括风险偏好、投资金额等参数</p>
+                        <div class="code-block">
+                            <code>配置路径: ~/.openclaw/config.yaml</code>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>开始使用</h3>
+                        <p>安装完成后，系统将自动运行并开始为您提供投资建议</p>
+                        <div class="code-block">
+                            <code>启动命令: openclaw start</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 在线演示 -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <h2 class="section-title">功能演示</h2>
+            <div class="demo-container">
+                <div class="demo-tabs">
+                    <button class="tab-btn active" onclick="openTab('market')">市场分析</button>
+                    <button class="tab-btn" onclick="openTab('recommendation')">基金推荐</button>
+                    <button class="tab-btn" onclick="openTab('portfolio')">投资组合</button>
+                </div>
+                <div class="demo-content">
+                    <div id="market" class="tab-content active">
+                        <h3>实时市场分析</h3>
+                        <p>系统实时分析市场趋势，为您提供专业的投资建议</p>
+                        <div class="demo-chart">
+                            <div class="chart-container">
+                                <canvas id="marketChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="recommendation" class="tab-content">
+                        <h3>智能基金推荐</h3>
+                        <p>基于您的风险偏好，推荐最适合的投资组合</p>
+                        <div class="recommendation-list">
+                            <div class="fund-item">
+                                <div class="fund-name">沪深300指数基金</div>
+                                <div class="fund-rating">★★★★☆</div>
+                                <div class="fund-risk">中风险</div>
+                            </div>
+                            <div class="fund-item">
+                                <div class="fund-name">科技创新主题基金</div>
+                                <div class="fund-rating">★★★☆☆</div>
+                                <div class="fund-risk">高风险</div>
+                            </div>
+                            <div class="fund-item">
+                                <div class="fund-name">稳健收益债券基金</div>
+                                <div class="fund-rating">★★★★★</div>
+                                <div class="fund-risk">低风险</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="portfolio" class="tab-content">
+                        <h3>投资组合管理</h3>
+                        <p>全面监控您的投资组合表现</p>
+                        <div class="portfolio-stats">
+                            <div class="stat-card">
+                                <div class="stat-value">+15.2%</div>
+                                <div class="stat-label">年度收益</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">3.2%</div>
+                                <div class="stat-label">夏普比率</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">12.5%</div>
+                                <div class="stat-label">最大回撤</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 风险提示 -->
+    <section class="risk-warning">
+        <div class="container">
+            <div class="warning-card">
+                <div class="warning-icon">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <div class="warning-content">
+                    <h3>投资风险提示</h3>
+                    <p>基金投资有风险，过往业绩不代表未来表现。本系统提供的投资建议仅供参考，不构成投资建议。投资者应根据自身风险承受能力谨慎决策。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>OpenClaw AI</h4>
+                    <p>专业的智能投资顾问平台</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#features">功能特色</a></li>
+                        <li><a href="#installation">安装指南</a></li>
+                        <li><a href="#demo">在线演示</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>技术支持</h4>
+                    <ul>
+                        <li><a href="#">文档中心</a></li>
+                        <li><a href="#">常见问题</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 OpenClaw AI. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
